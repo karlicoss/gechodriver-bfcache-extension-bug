@@ -1,0 +1,20 @@
+{
+  "name": "testing webnavigation",
+  "version": "1",
+  "description": "testing webnavigation",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "notifications",
+    "webNavigation",
+        "file:///*",
+        "https://*/*",
+        "http://*/*"
+
+  ],
+  "manifest_version": 2
+}
